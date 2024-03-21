@@ -1,6 +1,6 @@
 # Neuseelandreise CSS Quiz
 
-## Analysiert die CSS Regeln in [main.css](https://github.com/webmapping/nz/blob/main/main.css)
+## Analysiert die  CSS Regeln in [main.css](https://github.com/webmapping/nz/blob/main/main.css)
 
 - Zeit: 30 Minuten
 - Dreierteams
