@@ -10,4 +10,10 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 }).addTo(map);
 
 let marker = L.marker([lat, lng]).addTo(map);
-marker.bindPopup("<h2>Hello world!</h2><br>I am a popup.").openPopup();
+marker.bindPopup(`
+    <h2>Tongariro Nationalpark</h2>
+    <ul>
+        <li>Breite: ${lat}</li>
+        <li>Länge: ${lng}</li>
+    </ul>
+`).openPopup();
